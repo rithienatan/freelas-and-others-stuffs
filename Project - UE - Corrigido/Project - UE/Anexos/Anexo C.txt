@@ -1,2 +1,0 @@
-Prefeito A; 55; Belo Horizonte; NOVO; P
-Vereadora A; 49; Lagoa Santa; PMB; V

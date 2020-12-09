@@ -1,3 +1,0 @@
-pessoaA; 3331 1471 0141 71; Belo Horizonte; 001; 0111
-pessoaB; 3332 1472 0142 72; Lagoa Santa; 002; 0112
-pessoaC; 3333 1473 0143 73; Ouro Preto; 003; 0113

@@ -1,3 +1,0 @@
-Belo Horizonte; 001; 0111
-Lagoa Santa; 002; 0112
-Ouro Preto; 003; 0113
