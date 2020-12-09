@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Desafio CodeNation AceleraDev React Online - Modulo 1">
+        <meta name="author" content="Rithie Natan">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>IMDB - CodeNation Filmes</title>
+
+        <link rel="shortcut icon" type="image/png" href="icon/favicon.png">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--Cabeçalho-->
+        <header class="cabecalho">
+            <!-- Construção da barra de navegação -->
+            <nav class="head_menu">
+                <div class="container">
+                    <!--logo-->
+                    <a href="#" class="head_logo">
+                        <img src="img/logo-imdb.jpg" alt="Logo IMDB">
+                    </a>
+                    
+                    <!--opções do menu-->
+                    <ul class="head_menu_list">
+                        <li class="menu_item"><a href="#">Lançamentos</a></li>
+                        <li class="menu_item"><a href="#">Crítica</a></li>
+                        <li class="menu_item"><a href="#">Em cartaz</a></li>
+                    </ul>
+
+                    <!--user-->
+                    <div class="user">
+                        <div class="user_avatar">
+                            <img src="img/cartazes/walter-white.jpg" alt="Walter White">
+                        </div>
+                        <div class="user_name">
+                            Walter White
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!--Conteúdo principal-->
+            <div class="main_conteudo">
+                <div class="container">
+                    <h2 class="main_titulo">Mad Max: Estrada da Fúria</h2>
+                    <!--Genero-->
+                    <p class="main_genero">
+                        <a href="#" class="main_genero_item">Aventura</a>
+                        <a href="#" class="main_genero_item">SCI-FI</a>
+                        <a href="#" class="main_genero_item">Terror</a>
+                    </p>
+                    <!--Button para trailer-->
+                    <a href="#" class="main_button">
+                        Assistir Trailer
+                        <i class="far fa-play-circle"></i>
+                    </a>
+                    <!--Informação do filme-->
+                    <div class="main_information">
+                        <p>Nos Cinemas</p>
+                        <p>15 de Outubro de 2015 (Brasil)</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--Secção principal-->
+        <section class="mural">
+            <!--catalogo menu-->
+            <nav class="mural_menu">
+                <div class="container">
+                    <ul class="mural_menu_list">
+                        <li class="mural_menu_list_item"><a href="#">Nos Cinemas</a></li>
+                        <li class="mural_menu_list_item"><a href="#">Em Breve</a></li>
+                        <li class="mural_menu_list_item"><a href="#">Bilheteria</a></li>
+                        <li class="mural_menu_list_item"><a href="#">Séries</a></li>
+                        <li class="mural_menu_list_item"><a href="#">Trailers</a></li>                        
+                    </ul>
+                </div>
+            </nav>
+
+            <!--Poster de filmes-->
+            <div class="container">
+                <!--lista de filmes-->
+                <ul class="films_list">
+                    <li class="films_list_item">
+                        <figure class="films_poster">
+                            <img src="img/cartazes/poster-moonlight.jpg" alt="Moonlight poster">
+                            <div class="films_poster_info">
+                                <h3>Moonlight</h3>
+                                <a href="#" class="films_poster_link">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </figure>
+                        <div class="films_poster_sinopse">
+                            <h3 class="films_poster_sinopse_title">Moonlight</h3>
+                            <p class="films_poster_sinopse_genero">
+                                <a href="#" class="films_poster_sinopse_genero_item">Drama</a>
+                            </p>
+                            <p class="films_nota">
+                                <i class="fas fa-heart"></i>
+                                7.0
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="films_list_item">
+                        <figure class="films_poster">
+                            <img src="img/cartazes/poster-bladerunner.jpg" alt="Blade Runner poster">
+                            <div class="films_poster_info">
+                                <h3>Blade Runner</h3>
+                                <a href="#" class="films_poster_link">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </figure>
+                        <div class="films_poster_sinopse">
+                            <h3 class="films_poster_sinopse_title">Blade Runner</h3>
+                            <p class="films_poster_sinopse_genero">
+                                <a href="#" class="films_poster_sinopse_genero_item">Aventura,</a>
+                                <a href="#" class="films_poster_sinopse_genero_item">SCI-FI</a>
+                            </p>
+                            <p class="films_nota">
+                                <i class="fas fa-heart"></i>
+                                7.0
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="films_list_item">
+                        <figure class="films_poster">
+                            <img src="img/cartazes/poster-mad-max.jpg" alt="Mad Max poster">
+                            <div class="films_poster_info">
+                                <h3>Mad Max</h3>
+                                <a href="#" class="films_poster_link">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </figure>
+                        <div class="films_poster_sinopse">
+                            <h3 class="films_poster_sinopse_title">Mad Max</h3>
+                            <p class="films_poster_sinopse_genero">
+                                <a href="#" class="films_poster_sinopse_genero_item">Aventura,</a>
+                                <a href="#" class="films_poster_sinopse_genero_item">SCI-FI,</a>
+                                <a href="#" class="films_poster_sinopse_genero_item">Terror</a>
+                            </p>
+                            <p class="films_nota">
+                                <i class="fas fa-heart"></i>
+                                7.0
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="films_list_item">
+                        <figure class="films_poster">
+                            <img src="img/cartazes/poster-alita.jpg" alt="Alita poster">
+                            <div class="films_poster_info">
+                                <h3>Alita</h3>
+                                <a href="#" class="films_poster_link">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </figure>
+                        <div class="films_poster_sinopse">
+                            <h3 class="films_poster_sinopse_title">Alita</h3>
+                            <p class="films_poster_sinopse_genero">
+                                <a href="#" class="films_poster_sinopse_genero_item">Aventura,</a>
+                                <a href="#" class="films_poster_sinopse_genero_item">SCI-FI</a>
+                            </p>
+                            <p class="films_nota">
+                                <i class="fas fa-heart"></i>
+                                7.0
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="films_list_item">
+                        <figure class="films_poster">
+                            <img src="img/cartazes/poster-batman-superman.jpg" alt="Batman vs Superman poster">
+                            <div class="films_poster_info">
+                                <h3>Batman vs Superman</h3>
+                                <a href="#" class="films_poster_link">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </figure>
+                        <div class="films_poster_sinopse">
+                            <h3 class="films_poster_sinopse_title">Batman vs Superman</h3>
+                            <p class="films_poster_sinopse_genero">
+                                <a href="#" class="films_poster_sinopse_genero_item">Ação,</a>
+                                <a href="#" class="films_poster_sinopse_genero_item">Drama</a>
+                            </p>
+                            <p class="films_nota">
+                                <i class="fas fa-heart"></i>
+                                7.0
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="films_list_item">
+                        <figure class="films_poster">
+                            <img src="img/cartazes/poster-jurassic-world.jpg" alt="Jurassic World poster">
+                            <div class="films_poster_info">
+                                <h3>Jurassic World</h3>
+                                <a href="#" class="films_poster_link">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </figure>
+                        <div class="films_poster_sinopse">
+                            <h3 class="films_poster_sinopse_title">Jurassic World</h3>
+                            <p class="films_poster_sinopse_genero">
+                                <a href="#" class="films_poster_sinopse_genero_item">Aventura,</a>
+                                <a href="#" class="films_poster_sinopse_genero_item">Terror</a>
+                            </p>
+                            <p class="films_nota">
+                                <i class="fas fa-heart"></i>
+                                7.0
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="films_list_item">
+                        <figure class="films_poster">
+                            <img src="img/cartazes/poster-guerra-civil.jpg" alt="Guerra Civil poster">
+                            <div class="films_poster_info">
+                                <h3>Guerra Civil</h3>
+                                <a href="#" class="films_poster_link">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </figure>
+                        <div class="films_poster_sinopse">
+                            <h3 class="films_poster_sinopse_title">Guerra Civil</h3>
+                            <p class="films_poster_sinopse_genero">
+                                <a href="#" class="films_poster_sinopse_genero_item">Aventura,</a>
+                                <a href="#" class="films_poster_sinopse_genero_item">Ação</a>
+                            </p>
+                            <p class="films_nota">
+                                <i class="fas fa-heart"></i>
+                                7.0
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="films_list_item">
+                        <figure class="films_poster">
+                            <img src="img/cartazes/poster-capita-marvel.jpg" alt="Capitã Marvel poster">
+                            <div class="films_poster_info">
+                                <h3>Capitã Marvel</h3>
+                                <a href="#" class="films_poster_link">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </figure>
+                        <div class="films_poster_sinopse">
+                            <h3 class="films_poster_sinopse_title">Capitã Marvel</h3>
+                            <p class="films_poster_sinopse_genero">
+                                <a href="#" class="films_poster_sinopse_genero_item">SCI-FI</a>
+                            </p>
+                            <p class="films_nota">
+                                <i class="fas fa-heart"></i>
+                                9.0
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="films_list_item">
+                        <figure class="films_poster">
+                            <img src="img/cartazes/poster-coringa.jpg" alt="Coringa poster">
+                            <div class="films_poster_info">
+                                <h3>Coringa</h3>
+                                <a href="#" class="films_poster_link">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </figure>
+                        <div class="films_poster_sinopse">
+                            <h3 class="films_poster_sinopse_title">Coringa</h3>
+                            <p class="films_poster_sinopse_genero">
+                                <a href="#" class="films_poster_sinopse_genero_item">Suspense,</a>
+                                <a href="#" class="films_poster_sinopse_genero_item">Drama</a>
+                            </p>
+                            <p class="films_nota">
+                                <i class="fas fa-heart"></i>
+                                10
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="films_list_item">
+                        <figure class="films_poster">
+                            <img src="img/cartazes/poster-liga-justica.jpg" alt="Liga da Justiça poster">
+                            <div class="films_poster_info">
+                                <h3>Liga da Justiça</h3>
+                                <a href="#" class="films_poster_link">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </figure>
+                        <div class="films_poster_sinopse">
+                            <h3 class="films_poster_sinopse_title">Liga da Justiça</h3>
+                            <p class="films_poster_sinopse_genero">
+                                <a href="#" class="films_poster_sinopse_genero_item">Aventura,</a>
+                                <a href="#" class="films_poster_sinopse_genero_item">Ação</a>
+                            </p>
+                            <p class="films_nota">
+                                <i class="fas fa-heart"></i>
+                                7.5
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="films_list_item">
+                        <figure class="films_poster">
+                            <img src="img/cartazes/poster-star-wars.jpg" alt="Star Wars VII poster">
+                            <div class="films_poster_info">
+                                <h3>Star Wars VII</h3>
+                                <a href="#" class="films_poster_link">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </figure>
+                        <div class="films_poster_sinopse">
+                            <h3 class="films_poster_sinopse_title">Star Wars VII</h3>
+                            <p class="films_poster_sinopse_genero">
+                                <a href="#" class="films_poster_sinopse_genero_item">Aventura,</a>
+                                <a href="#" class="films_poster_sinopse_genero_item">SCI-FI</a>
+                            </p>
+                            <p class="films_nota">
+                                <i class="fas fa-heart"></i>
+                                7.0
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="films_list_item">
+                        <figure class="films_poster">
+                            <img src="img/cartazes/poster-pantera-negra.jpg" alt="Pantera Negra poster">
+                            <div class="films_poster_info">
+                                <h3>Pantera Negra</h3>
+                                <a href="#" class="films_poster_link">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </figure>
+                        <div class="films_poster_sinopse">
+                            <h3 class="films_poster_sinopse_title">Pantera Negra</h3>
+                            <p class="films_poster_sinopse_genero">
+                                <a href="#" class="films_poster_sinopse_genero_item">Aventura,</a>
+                                <a href="#" class="films_poster_sinopse_genero_item">SCI-FI</a>
+                            </p>
+                            <p class="films_nota">
+                                <i class="fas fa-heart"></i>
+                                7.0
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Rodapé-->
+        <footer class="rodape">
+            <div class="container">
+                <img class="rodape_logo" src="img/logo-imdb.jpg" alt="Logo IMDB">
+                <ul class="rodape_list_icon">
+                    <li class="rodape_list_item rodape_twitter_icon">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="rodape_list_item rodape_facebook_icon">
+                        <a href="#">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li class="rodape_list_item rodape_instagram_icon">
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

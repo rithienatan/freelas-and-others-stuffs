@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>First page test</title>
+
+        <!--Tag 'style' para setar estilos-->
+        <style>
+            body{
+                background-color: black;
+                color: white;
+            }
+            p{
+                color: yellow;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <nav>TAG 'header' e dentro dela a tag 'nav'</nav>
+        </header>
+
+        <div>Hello World!</div><!--Tag 'div' cria uma área de conteúdo-->
+
+        <p>Hello world again!</p><!--Tag 'p' paragrafo-->
+
+        Novo<br> NEW<!--Tag 'br' quebra de linha-->
+
+        <hr><!--Tag 'hr' linhas horizontais-->
+
+        <!--Tag 'h*' criação de titulos-->
+        <h1>Titulo h1</h1>
+        <h2>Titulo h2</h2>
+        <h3>Titulo h3</h3>
+        <h4>Titulo h4</h4>
+        <h5>Titulo h5</h5>
+        <h6>Titulo h6</h6>
+
+        <!--Tags para a formatação de texto-->
+        <p>
+            <b>Texto em negrito - Tag 'b'</b><br>
+            <strong>Texto em negrito - Tag 'strong'</strong><br>
+            <i>Texto em itálico - Tag 'i'</i><br>
+            <em>Texto em itálico - Tag 'em'</em><br>
+            <u>Texto sublinhado</u><br>
+            <sub>Texto subescrito</sub><br>
+            <sup>Texto sobreescrito</sup><br>
+            <big>Texto com fonte maior do que o padrão</big><br>
+            <small>Texto com fonte menor do que o padrão</small><br>
+        </p>
+
+        <!--Tag 'style' para setar estilos-->
+        <p style="font-family: 'Times New Roman'">Times New Roman</p>
+        <p style="font-family: 'Helvetica, Arial'">Helvetica, Arial</p>
+        
+        <!--Tag 'img' para inserir imagens-->
+        <img src="C:\Users\Rithie\OneDrive\Imagens\Wallpapers\stretched-104498.jpg" height="250px" width="300px">
+
+        <!--Tag 'ol' para listas ordenadas e 'ul' para não ordenadas e 'li' para inserir elementos-->
+        <ol>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ol>
+        <ul>
+            <li>Primeiro</li>
+            <li>Segundo</li>
+            <li>Terceiro</li>
+        </ul>
+
+        <!--Tag 'a' para links-->
+        <a href="https://www.google.com.br/">Google</a><br>
+        <a href="inicio.html">Ir para outra pagina que a gente criou: inicio.html</a><br>
+
+        <!--Tag 'table' para a criação de tabela. As linhas sãoi criadas com a Tag 'tr' e coluna com 'td'-->
+        <!--Tag 'th' pode ser usadas para declarar células que representem a linha de cabeçalho-->
+        <table>
+            <tr> <th>a000</th> <th>a001</th> <th>a002</th> </tr>
+            <tr> <td>a100</td> <td>a101</td> <td>a102</td> </tr>
+            <tr> <td>a200</td> <td>a201</td> <td>a202</td> </tr>
+        </table>
+
+        <!--Tags para organizar a estrutura do website-->
+        <div>
+            <h3>Tag de estruturas</h3>
+            <ol>
+                <li>Header e nav</li>
+                <li>div</li>
+                <li>article e section</li>
+                <li>aside</li>
+                <li>footer</li>
+            </ol>
+        </div>
+
+        <!--Tag 'form' para criação de formulários-->
+        <form action="processa.php" method="post">
+            <label>Text</label>
+            <input type="text" name="texto1" placeholder="insira um texto">
+
+            <br>
+
+            <label>Password</label>
+            <input type="password" name="senha">
+
+            <br>
+
+            <label>Oculto</label>
+            <input type="hidden" name="informacao_oculta" value="mensagem oculta">
+
+            <br>
+
+            <label>Select</label>
+            <select name="selecao">
+                <option value="1">Opção 1</option>
+                <option value="2">Opção 2</option>
+            </select>
+
+            <br>
+
+            <label>Radio</label><br>
+            <input type="radio" name="radio1" value="1">Valor 1<br>
+            <input type="radio" name="radio1" value="2"> Valor 2
+
+            <br>
+            <label>Checkbox</label><br>
+            <input type="checkbox" name="ck1" value="1">Valor 1<br>
+            <input type="checkbox" name="ck2" value="2">Valor 2<br>
+            <input type="checkbox" name="ck3" value="3">Valor 3<br>
+
+            <br>
+
+            <input type="submit" value="enviar" name="submit">
+        </form>        
+
+        <footer>Tag 'footer'</footer>
+    </body>
+</html>

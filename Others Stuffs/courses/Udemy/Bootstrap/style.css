@@ -1,0 +1,40 @@
+body{
+    background-color: #EEE5DE;
+}
+
+header{
+    margin: 5px;
+    width: 930px;
+    height: 200px;
+    background-color: #1C1C1C;
+}
+
+.container{
+    margin: 5px;
+    width: 930px;
+    height: 495px;
+}
+
+.container article{
+    float: left;
+    margin: 0px 0px 5px 0px;
+    width: 650px;
+    height: 495px;
+    background-color: #FFBBFF;
+}
+
+.container aside{
+    float: right;
+    margin: 0px 0px 5px 5px;
+    width: 275px;
+    height: 495px;
+    background-color: #9F79EE;
+}
+
+footer{
+    margin: 5px;
+    width: 930px;
+    height: 200px;
+    background-color: #1C1C1C;
+    clear: both;
+}

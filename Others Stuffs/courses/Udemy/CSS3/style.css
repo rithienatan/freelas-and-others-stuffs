@@ -1,0 +1,55 @@
+/*Comentário*/
+
+/*tags*/
+body{
+    background-color: #EEE9E9;
+}
+
+header{
+    display: flex;
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 200px;
+    background-image: url('https://i.pinimg.com/originals/c7/a9/7a/c7a97a860069e1711cf67efbed183c8e.jpg');
+    background-size: 100%;
+}
+
+footer{
+    clear: both;
+    display: flex;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: #363636;
+}
+
+footer div{
+    color: #FFFAFA;
+}
+
+/*O '*' assume atributos para a pagina inteira*/
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: Helvetica, arial;
+}
+
+/*IDs*/
+#div_esq{
+    height: 200px;
+    width: 65%;
+    background-color: #00F5FF;
+    float: left;
+}
+
+#div_dir{
+    height: 200px;
+    width: 30%;
+    background-color: #1E90FF;
+    float: right;
+}
+
+/*class*/
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}

@@ -1,0 +1,316 @@
+/*----------- @ ------------*/
+@media (min-width: 800px)
+{
+    .posts{
+        padding: 10px;
+    }
+
+    .post__box{
+        border-radius: 15px;
+        border: 1px solid #dddddd;
+    }
+}
+
+/* --------------------------global atributes-------------------------- */
+body{
+    background-color: #FAFAFA;
+    margin: 0;
+    font-size: 14px;
+    font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+}
+
+img{
+    max-width: 100%;
+}
+
+button{
+    border: 0px;
+    background-color: transparent;
+    outline: 0px;
+}
+
+main{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* --------------------global classes------------------- */
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* --------------------header content------------------- */
+.heading{
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    position: fixed;
+    top: 0;
+}
+
+.heading__container{
+    height: 100%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading__instagramLogoName{
+    width: 135px;
+    height: 100%;
+    min-width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.heading__instagramLogoName img{
+    margin-top: 5px;
+}
+
+.heading__directs{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 1.4rem;
+    height: 80%;
+}
+
+/* -------------------- stories ------------------- */
+.stories{
+    padding-top: 15px;
+    height: 90px;
+    overflow-y: hidden;
+    box-sizing: content-box;
+}
+
+.stories__sequence{
+    height: 120px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.stories__profile{
+    margin-right: 8px;
+    margin-left: 8px;
+    width: 64px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stories__profile:first-child{
+    margin-left: 10px;
+}
+
+.stories__profile--thumbnail{
+    border-radius: 100%;
+    border: solid 2px #dddddd;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stories__profile--newstorie{
+    background: linear-gradient(45deg, #f99a49 10%, #cc2c89 80%);
+    border: 0px;
+}
+
+.stories__thumbnailWarping{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border: 2px solid #ffffff;
+}
+
+.stories__userName{
+    margin-top: 7px;
+    font-size: 0.8rem;
+}
+
+/* -------------------- posts ------------------- */
+.posts{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post__box{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.post__heading{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    box-sizing: content-box;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.post__info{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.post__userThumbnail{
+    margin-right: 4px;
+    margin-left: 4px;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post__userThumbnailWraping{
+    border-radius: 100%;
+    width: 92%;
+    height: 92%;
+    overflow: hidden;
+    border: 2.2px solid #ffffff;
+}
+
+.post__userThumbnailWraping img{
+    border-radius: 100%;
+    width: 100%;
+}
+
+.post__userName{
+    font-weight: bold;
+    width: auto;
+}
+
+.post__userName a{
+    font-size: 0.9rem;
+}
+
+.post__options{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.post__img{
+    width: 100%;
+}
+
+.post__img img{
+    width: 100%;
+}
+
+.post__actions{
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+}
+
+.post__button{
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.post__button:first-child{
+    margin-left: 0;
+}
+
+.post__button:hover{
+    opacity: 0.4;
+}
+
+.post__button--bookmark{
+    margin-left: auto;
+}
+
+.post__button:last-child{
+    margin-right: 0;
+}
+
+.post__interaction{
+    padding: 5px 10px;
+    width: 100%;
+    min-height: 50px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+}
+
+.post__interactionUserThumbnail{
+    height: 100%;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.post__interactionUserThumbnail img{
+    border-radius: 100%;
+    width: inherit;
+    max-width: inherit;
+}
+
+.post__interactionLink{
+    font-weight: bold;
+}
+
+/* -------------------- barra de navegação ------------------- */
+.navbar{
+    width: 100%;
+    background-color: #ffffff;
+    height: 55px;
+    border-top: 1px solid #dddddd;
+    bottom: 0;
+    position: fixed;
+}
+
+.navbar__list{
+    height: inherit;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.navbar__item{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.navbar__link{
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}

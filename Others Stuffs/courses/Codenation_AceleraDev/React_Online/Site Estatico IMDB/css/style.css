@@ -1,0 +1,465 @@
+/* @author Rithie Natan */
+
+/*--------------------Icon and font links--------------------*/
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap";
+@import "https://pro.fontawesome.com/releases/v5.13.0/css/all.css";
+
+/*--------------------Generic configurations--------------------*/
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.container
+{
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}
+
+/*--------------------Configurações de cabeçalho--------------------*/
+.cabecalho
+{
+    background-attachment: fixed;
+    background-image: url("../img/cartazes/capa-madmax2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.head_menu
+{
+    display: flex;
+    z-index: 2;
+}
+
+.head_menu .container
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head_logo
+{
+    display: inline-block;
+}
+
+.head_menu_list
+{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_item
+{
+    margin: 0 25px;
+}
+
+.menu_item a
+{
+    color: #FFFFFF;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu_item a:hover
+{
+    color: #bc9a1d;
+}
+
+.user
+{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.user_avatar
+{
+    border-radius: 100%;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    height: 45px;
+    margin-right: 15px;
+    overflow: hidden;
+    width: 45px;
+}
+
+.user_avatar img
+{
+    width: 100%;
+    height: auto;
+}
+
+.user_name
+{
+    color: #FFFFFF;
+    font-size: 1.3em;
+    font-weight: bold;    
+}
+
+.main_conteudo
+{
+    width: 100%;
+}
+
+.main_conteudo .container
+{
+    position: relative;
+    z-index: 2;
+}
+
+.main_titulo
+{
+    color: #FFFFFF;
+    font-size: 6.5em;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.main_genero
+{
+    display: flex;
+    margin: 15px 0 30px;
+    font-size: 13px;
+}
+
+.main_genero_item
+{
+    color: #FFFFFF;
+    margin-right: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.main_genero_item:hover
+{
+    color: #bc9a1d;
+}
+
+.main_button
+{
+    background-color: #e4bb23;
+    border-radius: 40px;
+    color: black;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 15px 50px;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.main_button:hover
+{
+    background-color: #bc9a1d;
+}
+
+.main_button i
+{
+    font-size: 1.5em;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+}
+
+.main_information
+{
+    color: #FFFFFF;
+    font-size: 1.4em;
+    padding: 20px 0;
+
+}
+
+.main_information p:last-child
+{
+    color: #bc9a1d;
+}
+
+.cabecalho::after
+{
+    background: linear-gradient( 0deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 212, 255, 0) 75%);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/*--------------------Configurações de secção principal--------------------*/
+.mural
+{
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.mural_menu
+{
+    display: flex;
+    width: 100%;
+}
+
+.mural_menu_list
+{
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.mural_menu_list_item
+{
+    margin: 0 20px;
+}
+
+.mural_menu_list_item a
+{
+    color: #e4bb23;
+    display: inline-block;
+    padding: 25px 0;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.mural_menu_list_item a:hover
+{
+    box-shadow: inset 0 -1px #e4bb23;
+}
+
+.films_list
+{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.films_list_item
+{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    overflow: hidden;
+    width: 24%;
+}
+
+.films_poster
+{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.films_poster img
+{
+    width: 100%;
+    height: auto;
+}
+
+.films_poster_info
+{
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    padding: 80px 20px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: all 0.2s ease-in-out;
+    visibility: hidden;
+    width: 100%;
+    z-index: 1;
+}
+
+.films_list_item:hover
+.films_poster_info
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+.films_poster_info h3
+{
+    color: #e4bb23;
+    font-size: 2em;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.films_poster_link
+{
+    color: #FFFFFF;
+    font-size: 5em;
+    transition: all 0.2s ease-in-out;
+}
+
+.films_poster_link:hover
+{
+    color: #e4bb23;
+}
+
+.films_poster_sinopse
+{
+    padding: 10px;
+    width: 100%;
+}
+
+.films_poster_sinopse_title
+{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.films_poster_sinopse_genero
+{
+    margin: 10px 0;
+    display: flex;
+}
+
+.films_poster_sinopse_genero_item
+{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #e4bb23;
+}
+
+.films_poster_sinopse_genero_item:hover
+{
+    text-decoration: underline;
+}
+
+.films_nota
+{
+    margin: 0;
+    align-items: center;
+    display: flex;
+    font-size: 2em;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.films_nota i
+{
+    color: #cccccc;
+    cursor: pointer;
+}
+
+.films_nota i:hover{
+    color: #e74c3c;
+}
+
+/*--------------------Configurações de rodapé--------------------*/
+.rodape
+{
+    background-color: #FFFFFF;
+    color: #bababa;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.rodape .container
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape_list_icon
+{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.rodape_twitter_icon
+{
+    margin: 0 20px;
+}
+
+.rodape_twitter_icon a:hover
+{
+    color: #55acee;
+}
+
+.rodape_facebook_icon
+{
+    margin: 0 20px;
+}
+
+.rodape_facebook_icon a:hover
+{
+    color: #3b5998;
+}
+
+.rodape_instagram_icon
+{
+    margin: 0px 0px 0px 20px;
+}
+
+.rodape_instagram_icon a:hover
+{
+    color: #e95950;
+}
+
+.rodape_list_icon a
+{
+    color: #bababa;
+    font-size: 2.5em;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.fab
+{
+    font-size: x-large;
+}
