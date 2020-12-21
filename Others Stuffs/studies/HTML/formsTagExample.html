@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <form action="" target="_blank" method="POST" 
+              oninput="x.value=parseInt(a.value)">
+            <label for="thisTextField">This is a text field: </label>
+            <input type="text" id="thisTextField" name="TextField"><br><br>
+
+            <label>This is a radio button: </label><br>
+            <input type="radio" id="yes" name="radioButton" value="yes">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="radioButton" value="no">
+            <label for="no">No</label><br><br>
+
+            <label>This is a checkbox: </label><br>
+            <input type="checkbox" id="js" name="js" value="JavaScrpit">
+            <label for="js">JavaScript</label><br>
+            <input type="checkbox" id="html" name="html" value="HTML5">
+            <label for="html">HTML5</label><br>
+            <input type="checkbox" id="css" name="css" value="CSS3">
+            <label for="css">CSS3</label><br><br>
+
+            <label for="optionList">This is a select field: </label>
+            <select id="optionList" name="option" size="3" multiple>
+                <option value="opcao1">Opção1</option>
+                <option value="opcao2">Opção2</option>
+                <option value="opcao3">Opção3</option>
+            </select><br><br>
+
+            <label for="textArea">This is a Text Area: </label><br>
+            <textarea name="textArea" rows="10" cols="30"></textarea><br><br>
+
+            <button type="button" onclick="alert('Hello World!')">This is a Button!</button><br><br>
+
+            <fieldset>
+                <legend>This is a fieldset with legend!</legend>
+            </fieldset><br><br>
+
+            <label for="numbers">This is a datelist:</label><br>
+            <input list="numbers">
+            <datalist id="numbers">
+                <option value="0">
+                <option value="1">
+                <option value="2">
+            </datalist><br><br>
+
+            <input type="range" id="a" name="a" value="0">
+            <output name="x" for="a"></output><br><br>
+
+            <input type="reset" value="This is a reset button!"><br><br>
+
+            <label for="date">This is a date field!</label><br>
+            <input type="date" id="date" name="data"><br><br>
+
+            <label for="email">This is a email field!</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="inputfile">This is a file field!</label><br>
+            <input type="file" id="inputfile" name="inputfile"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
