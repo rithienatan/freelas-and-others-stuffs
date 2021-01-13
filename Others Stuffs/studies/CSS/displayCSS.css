@@ -1,0 +1,8 @@
+div {
+    border: 1px solid blueviolet;
+    display: flexbox;
+}
+
+p {
+    visibility: hidden;
+}

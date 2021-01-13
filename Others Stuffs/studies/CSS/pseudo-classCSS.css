@@ -1,0 +1,47 @@
+a:link {
+    color: #FF0000;
+}
+
+a:visited {
+    color: #00FF00;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+
+a:active {
+    color: #0000FF;
+}
+
+a.example:hover {
+    color: #FF0000;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+div:hover{
+    background-color: blue;
+}
+
+p.pinsidediv {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+
+div:hover p.pinsidediv {
+    display: block;
+}
+
+p:first-child {
+    color: blue;
+}
+
+q:lang(example) {
+    quotes: "~" "~";
+}

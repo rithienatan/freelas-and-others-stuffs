@@ -1,0 +1,12 @@
+body {
+    background-image: url("imgTest.png");
+    background-attachment: fixed;
+}
+
+/*
+shorthand mode
+
+body {
+    background: #ffffff url("imgTest.png") no-repeat fixed right top;
+}
+*/

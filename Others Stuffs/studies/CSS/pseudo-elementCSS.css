@@ -1,0 +1,22 @@
+p::first-line {
+    color: red;
+    font-variant: small-caps;
+}
+
+p::first-letter {
+    color: blue;
+    font-size: xx-large;
+}
+
+p::before {
+    content: url('imgTest.png');
+}
+
+p::after {
+    content: url('imgTest.png');
+}
+
+::selection {
+    color: red;
+    background-color: yellow;
+}
