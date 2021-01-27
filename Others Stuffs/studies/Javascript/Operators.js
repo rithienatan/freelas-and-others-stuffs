@@ -7,4 +7,4 @@ if(x === y)
 { console.log('Verify if are equals in type and value!'); }
 
 if(x !== y)
-{ console.log('Verify if not equal in type or value!'); }
+{ console.log("Verify if not equal in type or value!"); }
