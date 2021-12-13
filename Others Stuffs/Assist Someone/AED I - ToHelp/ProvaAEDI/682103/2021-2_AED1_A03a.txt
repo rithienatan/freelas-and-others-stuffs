@@ -1,0 +1,89 @@
+Pontifícia Universidade Católica de Minas Gerais
+Instituto de Ciências Exatas e Informática
+Curso de Ciência da Computação
+Disciplina: Algoritmos e Estruturas de Dados I
+
+Atividade avaliativa 03
+
+Matrícula:
+Nome     :
+
+Instruções gerais
+
+- Desenvolver soluções para completar o modelo de programa 
+  no arquivo A202101_03a.cpp, anexo, com as definições de 
+  dados a serem empregadas, bem como testes previstos.
+  Os métodos a serem desenvolvidos encontram-se listados
+  e com as respectivas assinaturas e definições essenciais.
+- Os valores usados para testes deverão ser informados em
+  arquivo(s) com formato texto (editável), com um valor
+  apenas em cada linha.
+- Os resultados produzidos deverão ser guardados no arquivo
+  com formato texto (editável), conforme modelo anexo.
+- É permitida a consulta ao material disponível.
+- As soluções entregues serão verificadas e poderão ser
+  desconsideradas caso houver indicações de similaridade.
+- O tempo previsto para cada questão é de 30 minutos.
+  Um tempo adicional de mais 30 minutos será oferecido
+  em atendimento às solicitações apresentadas pelo NAI.
+- A entrega do exercício deverá ser feita pelo CANVAS.
+
+Testes
+
+- Para compilar
+
+       mk A202102_xxx inputs.txt output.txt
+
+Enunciado
+
+Um posto de saúde pretende oferecer um turno extra para
+aplicar vacinas. Haverá três unidades para aplicar cada
+uma de três doses. Para isso precisará de um programa 
+para organizar melhor a lista de interessados.
+
+Uma lista manual, contendo dados recolhidos, passará 
+a ser digital, mas precisará passar por filtragens para 
+remoção de dados inconsistentes e/ou duplicados.
+
+As listas filtradas por vacina (1 a 3) serão gravadas
+em arquivos para uso posterior em cada unidade de 
+vacinação.
+
+Resultado
+
+Arquivo (output_xx.txt) contendo um resumo com 
+a quantidade de pessoas a serem vacinadas para cada dose, 
+a partir de dados válidos de pessoas a serem vacinadas, 
+apenas um valor por linha - o CPF.
+
+Dados
+
+Arquivo (input_xx.txt) contendo dados não filtrados
+de pessoas a serem vacinadas, um valor por linha.
+
+Condições
+
+Verificar as seguintes condições apra a aplicação
+das vacinas:
+
+  1a. dose - sem restrições
+  2a. dose - 30 dias após a primeira dose
+  3a. dose - 150 dias (05 meses) após a segunda dose
+
+Restrições
+
+a.) Só poderão ser tratados dados válidos:
+    - CPF  - valor inteiro positivo
+    - data - dia no intervalo [01-30]
+           - mês no intervalo [01-12]
+           - ano do intervalo [2020-2022]
+    OBS.: Um dado NÃO válido deverá ser representado pelo
+          valor padrão (0,(0,0,0)), caso necessário.
+b.) A quantidade de dados em arquivo NÃO será fornecida.
+c.) Um programa modelo (A202102_03a.cpp) será fornecido com
+    com as definições de dados a serem empregadas, bem como
+    testes previstos. Os métodos a serem desenvolvidos já se 
+    encontrarão listados e com suas definições essenciais.
+d.) Tratar outras possíveis situações de erros.
+
+
